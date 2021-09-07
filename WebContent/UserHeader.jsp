@@ -71,7 +71,7 @@ body {
 }
 
 #button-pinMenu.change {
-	background: @accent1;
+	background: #d93232;
 	padding-right: 16px;
 	border-radius: 16px;
 	border-top-left-radius: 0%;
