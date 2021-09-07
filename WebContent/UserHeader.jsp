@@ -15,18 +15,18 @@ a
 			<div class="menu-links">Home</div>
 		</a>
 		<a class="link-container" href="listuserres">
-			<div class="menu-links">Restaurant </div>
+			<div class="menu-links">Events Photography </div>
         </a>
         <a class="link-container" href="listUserRoomBook">
-			<div class="menu-links">Room Service </div>
+			<div class="menu-links">Catering</div>
         </a>
 
         <a class="link-container" href="">
-			<div class="menu-links">Veichle Service</div>
+			<div class="menu-links">Venue</div>
 		</a>
 
 		<a class="link-container" href="listuserbanq">
-			<div class="menu-links">Banquet service</div>
+			<div class="menu-links">Entertainment</div>
         </a>
         
        
