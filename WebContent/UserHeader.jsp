@@ -46,8 +46,6 @@ a
 
 
 <style>
-    @accent1: #d93232;
-@accent1dark: #a61f1f;
 body {
 
 	background: #0a0a0a url no-repeat fixed bottom;
