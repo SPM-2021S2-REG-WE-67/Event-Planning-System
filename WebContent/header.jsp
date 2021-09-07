@@ -127,7 +127,7 @@ table.dataTable tbody tr {
 .sidebar-navigation li a {
 	padding: 10px 15px 10px 30px;
 	display: block;
-	color: #ffffff;
+	color: #fff;
 	line-height: 40px;
 	font-size: 18px;
 	font-weight: 600;
