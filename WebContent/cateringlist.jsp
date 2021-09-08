@@ -46,7 +46,7 @@
 							<td><c:out value="${user.cateringmenudetails}" /></td>
 							<td><c:out value="${user.workingdays}" /></td>
 							<td><c:out value="${user.location}" /></td>
-								<td><img src="<c:out value="${user.path}" />"   width="200" height="200"/></td>
+								<td><img src="<c:out value="${user.path}" />"width="200" height="200"/></td>
 
 							<td><a href="editcatering?id=<c:out value='${user.id}' />">Edit</a>
 								&nbsp;&nbsp;&nbsp;&nbsp; <a
