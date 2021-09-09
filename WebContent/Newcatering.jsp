@@ -58,7 +58,7 @@
 				</fieldset>
 
 				<fieldset class="form-group">
-					<label>Cost Details</label> <input type="file" class="form-control"
+					<label> Cost Details</label> <input type="file" class="form-control"
 						name="file" >
 				</fieldset>
 				<div class="d-flex justify-content-center">
