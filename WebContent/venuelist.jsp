@@ -13,16 +13,16 @@
 <body>
 <%@include file="header.jsp" %>
 		<div class="container" style="margin-left: 20%; padding-top:5%">
-			<h3 class="text-center">List of Venue Resources</h3>
+			<h3 class="text-center">LIST OF VENUE RESOURCES</h3>
 			<hr>
 			<div class="container text-left">
 
-				<a href="<%=request.getContextPath()%>/newvenue" class="btn btn-secondary">Add Venue Resources</a>
+				<a href="<%=request.getContextPath()%>/newvenue" class="btn btn-secondary">ADD VENUE RESOURCES</a>
 			</div>
 			
 				<div class="container text-right">
 
-				<a href="<%=request.getContextPath()%>/venuepdf" class="btn btn-secondary">Generate Report</a>
+				<a href="<%=request.getContextPath()%>/venuepdf" class="btn btn-secondary">GENERATE REPORT</a>
 			</div>
 			<br>
 			<table id="dtBasicExample" class="table table-striped table-bordered table-sm">
