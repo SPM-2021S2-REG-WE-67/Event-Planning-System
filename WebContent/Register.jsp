@@ -29,7 +29,7 @@
 	<link rel="stylesheet" type="text/css" href="Register/css/main.css">
 <!--===============================================================================================-->
 </head>
-<body style="background-color: #999999;">
+<body style="background-color: #dbd5d5;">
 	
 	<div class="limiter">
 		<div class="container-login100">
