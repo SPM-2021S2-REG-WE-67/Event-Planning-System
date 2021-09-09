@@ -98,7 +98,7 @@ nav.sidebar .sideNav .open .dropdown-menu>li>a:hover, nav.sidebar .sideNav .open
 }
 
 .sideNav>li:first-child {
-	border-top: 1px #e5e5e5 solid;
+	border-top: 1px #f0eeee solid;
 }
 
 nav:hover .forAnimate {
