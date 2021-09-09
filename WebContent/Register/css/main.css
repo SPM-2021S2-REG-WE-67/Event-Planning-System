@@ -115,15 +115,15 @@ textarea:focus:-moz-placeholder { color:transparent; }
 textarea:focus::-moz-placeholder { color:transparent; }
 textarea:focus:-ms-input-placeholder { color:transparent; }
 
-input::-webkit-input-placeholder {color: #cccccc;}
-input:-moz-placeholder {color: #cccccc;}
-input::-moz-placeholder {color: #cccccc;}
-input:-ms-input-placeholder {color: #cccccc;}
+input::-webkit-input-placeholder {color: #dfdddd;}
+input:-moz-placeholder {color: #dfdddd;}
+input::-moz-placeholder {color: #dfdddd;}
+input:-ms-input-placeholder {color: #dfdddd;}
 
-textarea::-webkit-input-placeholder {color: #cccccc;}
-textarea:-moz-placeholder {color: #cccccc;}
-textarea::-moz-placeholder {color: #cccccc;}
-textarea:-ms-input-placeholder {color: #cccccc;}
+textarea::-webkit-input-placeholder {color: #dfdddd;}
+textarea:-moz-placeholder {color: #dfdddd;}
+textarea::-moz-placeholder {color: #dfdddd;}
+textarea:-ms-input-placeholder {color: #dfdddd;}
 
 /*---------------------------------------------*/
 button {
@@ -153,14 +153,14 @@ iframe {
 .txt2 {
   font-family: Poppins-Regular;
   font-size: 15px;
-  color: #666666;
+  color: #7c7a7a;
   line-height: 1.4;
 }
 
 .txt3 {
   font-family: Poppins-Regular;
   font-size: 16px;
-  color: #666666;
+  color: #858383;
   line-height: 1.4;
 }
 
