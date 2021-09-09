@@ -79,7 +79,7 @@ table.dataTable tbody tr {
 .sidebar-navigation li a {
 	padding: 10px 15px 10px 30px;
 	display: block;
-	color: #fff;
+	color: rgb(247, 244, 244);
 }
 
 .sidebar-navigation li .fa {
