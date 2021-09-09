@@ -54,7 +54,7 @@
 					</div>
 
 <div class="wrap-input100 validate-input" data-validate="Mobile is required">
-						<span class="label-input100">Mobile</span>
+						<span class="label-input100">Mobile Number</span>
 						<input class="input100" type="number" name="mobile" placeholder="Enter Your Mobile Number">
 						<span class="focus-input100"></span>
 					</div>
