@@ -48,7 +48,7 @@ table.dataTable tbody tr {
 	overflow-x: hidden;
 	overflow-y: auto;
 	background: #000000;
-	color: #fff;
+	color: rgb(156, 151, 151);
 }
 
 .content-container {
