@@ -88,7 +88,7 @@
 								<span class="txt1">
 									I agree to the
 									<a href="#" class="txt2 hov1">
-										Terms & Conditions
+										TERMS & CONDITIONS
 									</a>
 								</span>
 							</label>
