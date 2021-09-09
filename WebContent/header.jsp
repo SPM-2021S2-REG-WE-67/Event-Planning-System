@@ -133,7 +133,6 @@ table.dataTable tbody tr {
 	font-weight: 600;
 }
 </style>
-
 </head>
 
 <body>
