@@ -4,18 +4,18 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-weight: 300;
+  font-weight: 290;
 }
 body {
   font-family: 'Source Sans Pro', sans-serif;
   color: white;
-  font-weight: 300;
+  font-weight: 290;
 }
 body ::-webkit-input-placeholder {
   /* WebKit browsers */
   font-family: 'Source Sans Pro', sans-serif;
   color: white;
-  font-weight: 300;
+  font-weight: 290;
 }
 body :-moz-placeholder {
   /* Mozilla Firefox 4 to 18 */
@@ -29,13 +29,13 @@ body ::-moz-placeholder {
   font-family: 'Source Sans Pro', sans-serif;
   color: white;
   opacity: 1;
-  font-weight: 300;
+  font-weight: 290;
 }
 body :-ms-input-placeholder {
   /* Internet Explorer 10+ */
   font-family: 'Source Sans Pro', sans-serif;
   color: white;
-  font-weight: 300;
+  font-weight: 290;
 }
 .wrapper {
   background: #50a3a2;
