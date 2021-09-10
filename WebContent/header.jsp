@@ -112,7 +112,7 @@ table.dataTable tbody tr {
 .sidebar-navigation .header {
 	font-size: 12px;
 	text-transform: uppercase;
-	background-color: #000000;
+	background-color: #080808;
 	padding: 10px 15px 10px 30px;
 }
 
