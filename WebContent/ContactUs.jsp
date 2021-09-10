@@ -29,7 +29,7 @@
 	    <div class="container">
 	      <a class="navbar-brand" href="home/index.html"><span>VSK</span> EVENT PLANNERS</a>
 	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-	        <span class="oi oi-menu"></span> Menu
+	        <span class="oi oi-menu"></span>Menu
 	      </button>
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
