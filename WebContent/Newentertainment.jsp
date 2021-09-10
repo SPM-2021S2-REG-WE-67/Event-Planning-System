@@ -48,8 +48,8 @@
 				
 				<fieldset class="form-group">
 					<label> Working Days</label> <input type="text"
-						value="<c:out value='${user.workingdays}' />" class="form-control"
-						name="workingdays"  required="required">
+						value="<c:out value='${user.Days}' />" class="form-control"
+						name="days"  required="required">
 				</fieldset>
 				<fieldset class="form-group">
 					<label> Location</label> <input type="text"
