@@ -14,7 +14,7 @@
 					<form action="updateEntertainment" method="post">
 				</c:if>
 				<c:if test="${user == null}">
-					<form action="insertcatering" method="post" enctype="multipart/form-data">
+					<form action="insertEntertainment" method="post" enctype="multipart/form-data">
 				</c:if>
 
 				<caption>
