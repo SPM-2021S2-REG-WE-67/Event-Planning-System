@@ -25,7 +25,7 @@
 	PdfWriter writer = PdfWriter.getInstance(document, response.getOutputStream());
 	document.open();
 	Paragraph p = new Paragraph();
-	p.add("Catering Services List");
+	p.add("entertainment Services List");
 	p.setAlignment(Element.ALIGN_CENTER);
 	document.add(p);
 
@@ -36,7 +36,7 @@
 
 	DbConnection obj_DBConnection = new DbConnection();
 	Connection connection = obj_DBConnection.getConnection();
-	String query = "select * from catering";
+	String query = "select * from entertainment";
 	Statement stmt = null;
 	stmt = connection.createStatement();
 	ResultSet rs = stmt.executeQuery(query);
@@ -51,8 +51,8 @@
 	PdfPTable table1 = new PdfPTable(colsWidth);
 	table1.setWidthPercentage(100); // Code 2
 	table1.setHorizontalAlignment(Element.ALIGN_LEFT);//Code 3
-	Phrase cn = new Phrase("Catering Name", boldFont);
-	Phrase menu = new Phrase("Catering Menu Details", boldFont);
+	Phrase cn = new Phrase("resource Name", boldFont);
+	Phrase menu = new Phrase("type of entertainment", boldFont);
 	Phrase wd = new Phrase("Working Days", boldFont);
 	Phrase location = new Phrase("Location", boldFont);
 	
@@ -74,9 +74,9 @@
 		p5 = new Paragraph();
 		p6 = new Paragraph();
 
-		p3.add(rs.getString("cateringname"));
-		p4.add(rs.getString("CateringMenuDetails"));
-		p5.add(rs.getString("WorkingDays"));
+		p3.add(rs.getString("resourcename"));
+		p4.add(rs.getString("typeofentertainment"));
+		p5.add(rs.getString("Days"));
 		p6.add(rs.getString("Location"));
 		
 		

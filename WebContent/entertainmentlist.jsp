@@ -17,12 +17,12 @@
 			<hr>
 			<div class="container text-left">
 
-				<a href="<%=request.getContextPath()%>/newcatering" class="btn btn-secondary">Add Enteratianment Services</a>
+				<a href="<%=request.getContextPath()%>/newentertainment" class="btn btn-secondary">Add Enteratianment Services</a>
 			</div>
 			
 				<div class="container text-right">
 
-				<a href="<%=request.getContextPath()%>/cateringpdf" class="btn btn-secondary">Generate Report</a>
+				<a href="<%=request.getContextPath()%>/entertainmentpdf" class="btn btn-secondary">Generate Report</a>
 			</div>
 			<br>
 			<table id="dtBasicExample" class="table table-striped table-bordered table-sm">
@@ -47,9 +47,9 @@
 							<td><c:out value="${user.location}" /></td>
 								<td><img src="<c:out value="${user.path}" />"width="200" height="200"/></td>
 
-							<td><a href="editcatering?id=<c:out value='${user.id}' />">Edit</a>
+							<td><a href="editentertainment?id=<c:out value='${user.id}' />">Edit</a>
 								&nbsp;&nbsp;&nbsp;&nbsp; <a
-								href="deletecatering?id=<c:out value='${user.id}' />">Delete</a></td>
+								href="deleteentertainment?id=<c:out value='${user.id}' />">Delete</a></td>
 						</tr>
 					</c:forEach>
 					<!-- } -->

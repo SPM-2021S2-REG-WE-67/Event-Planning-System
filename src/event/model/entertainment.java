@@ -66,35 +66,35 @@ public class entertainment {
 		this.id = id;
 	}
 
-	public String getName() {
+	public String getresourcename() {
 		return resourcename;
 	}
 
-	public void setName(String resourcename) {
+	public void setresourcename(String resourcename) {
 		this.resourcename = resourcename;
 	}
 
-	public String getFacilities() {
+	public String gettypeOfEntertainment() {
 		return typeOfEntertainment;
 	}
 
-	public void setFacilities(String typeOfEntertainment) {
+	public void settypeOfEntertainment(String typeOfEntertainment) {
 		this.typeOfEntertainment = typeOfEntertainment;
 	}
 
-	public String getCost() {
+	public String getdays() {
 		return days;
 	}
 
-	public void setCost(String days) {
+	public void setdays(String days) {
 		this.days = days;
 	}
 
-	public String getType() {
+	public String getlocation() {
 		return location;
 	}
 
-	public void setType(String location) {
+	public void setlocation(String location) {
 		this.location = location;
 	}
 
