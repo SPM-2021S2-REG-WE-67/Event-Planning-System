@@ -33,7 +33,7 @@
 				</c:if>
 
 				<fieldset class="form-group">
-					<label> Catering Name</label> <input type="text"
+					<label>Catering Name</label> <input type="text"
 						value="<c:out value='${user.cateringname}' />" class="form-control"
 						name="cateringname" required="required">
 				</fieldset>
@@ -41,24 +41,24 @@
 				
 
 				<fieldset class="form-group">
-					<label> Catering Menu Details</label> <input type="text"
+					<label>Catering Menu Details</label> <input type="text"
 						value="<c:out value='${user.cateringmenudetails}' />" class="form-control"
 						name="cateringmenudetails"  required="required">
 				</fieldset>
 				
 				<fieldset class="form-group">
-					<label> Working Days</label> <input type="text"
+					<label>Working Days</label> <input type="text"
 						value="<c:out value='${user.workingdays}' />" class="form-control"
 						name="workingdays"  required="required">
 				</fieldset>
 				<fieldset class="form-group">
-					<label> Location</label> <input type="text"
+					<label>Location</label> <input type="text"
 						value="<c:out value='${user.location}' />" class="form-control"
 						name="location" required="required">
 				</fieldset>
 
 				<fieldset class="form-group">
-					<label> Cost Details</label> <input type="file" class="form-control"
+					<label>Cost Details</label> <input type="file" class="form-control"
 						name="file" >
 				</fieldset>
 				<div class="d-flex justify-content-center">
