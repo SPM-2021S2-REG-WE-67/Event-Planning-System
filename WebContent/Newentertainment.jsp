@@ -11,7 +11,7 @@
 		<div class="card">
 			<div class="card-body">
 				<c:if test="${user != null}">
-					<form action="updatecatering" method="post">
+					<form action="updateEntertainment" method="post">
 				</c:if>
 				<c:if test="${user == null}">
 					<form action="insertcatering" method="post" enctype="multipart/form-data">
