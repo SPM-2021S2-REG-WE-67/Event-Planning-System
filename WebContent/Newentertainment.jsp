@@ -20,10 +20,10 @@
 				<caption>
 					<h2>
 						<c:if test="${user != null}">
-            			Edit Catering Service Details
+            			Edit Entertainment Service Details
             		</c:if>
 						<c:if test="${user == null}">
-            			Add New Catering Service Details
+            			Add New Entertainment Service Details
             		</c:if>
 					</h2>
 				</caption>
