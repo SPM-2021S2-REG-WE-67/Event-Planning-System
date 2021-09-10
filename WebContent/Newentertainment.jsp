@@ -34,8 +34,8 @@
 
 				<fieldset class="form-group">
 					<label> Enteratianment Name</label> <input type="text"
-						value="<c:out value='${user.cateringname}' />" class="form-control"
-						name="cateringname" required="required">
+						value="<c:out value='${user.reosurcename}' />" class="form-control"
+						name="resourcename" required="required">
 				</fieldset>
 
 				
