@@ -17,7 +17,7 @@
 			<hr>
 			<div class="container text-left">
 
-				<a href="<%=request.getContextPath()%>/newcatering" class="btn btn-secondary">Add Catering Services</a>
+				<a href="<%=request.getContextPath()%>/newcatering" class="btn btn-secondary">Add Enteratianment Services</a>
 			</div>
 			
 				<div class="container text-right">
@@ -29,21 +29,20 @@
 				<thead>
 					<tr>
 					
-						<th>Catering Name</th>
-						<th>Catering Menu Details</th>
+						<th>ResourceName</th>
+						<th>Type of Enteratianment</th>
 						<th>Working Days</th>
 						<th>Location</th>
-						<th>Cost Details</th>
-						<th>Actions</th>
+						<th>Cost </th>
 					</tr>
 				</thead>
 				<tbody>
 				
-					<c:forEach var="user" items="${listCatering}">
+					<c:forEach var="user" items="${listEnteratianment}">
 
 						<tr>
-						<td><c:out value="${user.cateringname}" /></td>	
-							<td><c:out value="${user.cateringmenudetails}" /></td>
+						<td><c:out value="${user.ResourceName}" /></td>	
+							<td><c:out value="${user.TypeofEnteratianment}" /></td>
 							<td><c:out value="${user.workingdays}" /></td>
 							<td><c:out value="${user.location}" /></td>
 								<td><img src="<c:out value="${user.path}" />"width="200" height="200"/></td>
