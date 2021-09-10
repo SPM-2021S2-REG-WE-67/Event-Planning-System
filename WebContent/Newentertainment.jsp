@@ -42,8 +42,8 @@
 
 				<fieldset class="form-group">
 					<label> Catering Menu Details</label> <input type="text"
-						value="<c:out value='${user.cateringmenudetails}' />" class="form-control"
-						name="cateringmenudetails"  required="required">
+						value="<c:out value='${user.TypeofEnteratianment}' />" class="form-control"
+						name="TypeofEnteratianment"  required="required">
 				</fieldset>
 				
 				<fieldset class="form-group">
