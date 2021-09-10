@@ -13,8 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import event.dao.CateringDao;
 import event.model.Catering;
-import event.model.Employee;
-import event.model.Inventory;
+
 
 @WebServlet("/editcatering")
 public class CateringEditServlet extends HttpServlet {
