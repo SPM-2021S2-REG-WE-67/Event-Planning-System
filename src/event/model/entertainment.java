@@ -72,9 +72,9 @@ public class entertainment {
 
 	public void setresourcename(String resourcename) {
 		this.resourcename = resourcename;
-		
-	}
 
+	}
+//yet to commmit
 	public String gettypeOfEntertainment() {
 		return typeOfEntertainment;
 	}
