@@ -12,7 +12,7 @@ public class entertainment {
 	
 	
 
-	public entertainment(int id, String name, String facilities, String cost, String type) {
+	public entertainment(int id, String resourcename, String typeOfEntertainment, String days, String location) {
 		super();
 		this.id = id;
 		this.resourcename = resourcename;
@@ -21,7 +21,7 @@ public class entertainment {
 		this.location = location;
 	}
 
-	public entertainment(String name, String facilities, String cost, String type, String filename, String path) {
+	public entertainment(String resourcename, String typeOfEntertainment, String days, String location, String filename, String path) {
 		super();
 		this.resourcename = resourcename;
 		this.typeOfEntertainment = typeOfEntertainment;
@@ -31,7 +31,7 @@ public class entertainment {
 		this.path = path;
 	}
 
-	public entertainment(int id, String name, String        facilities, String cost, String type, String filename, String path) {
+	public entertainment(int id, String resourcename, String typeOfEntertainment, String days, String location, String filename, String path) {
 		super();
 		this.id = id;
 		this.resourcename = resourcename;
@@ -70,7 +70,7 @@ public class entertainment {
 		return resourcename;
 	}
 
-	public void setName(String name) {
+	public void setName(String resourcename) {
 		this.resourcename = resourcename;
 	}
 
