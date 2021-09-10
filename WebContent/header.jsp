@@ -35,7 +35,7 @@ thead {
 }
 
 table.dataTable tbody tr {
-	background: #b4c8f7;
+	background: #f7b4ec;
 	font-weight: 600;
 	color: black;
 }
