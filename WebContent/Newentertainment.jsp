@@ -33,7 +33,7 @@
 				</c:if>
 
 				<fieldset class="form-group">
-					<label> Enteratianment Name</label> <input type="text"
+					<label> Resource Name</label> <input type="text"
 						value="<c:out value='${user.reosurcename}' />" class="form-control"
 						name="resourcename" required="required">
 				</fieldset>
@@ -41,7 +41,7 @@
 				
 
 				<fieldset class="form-group">
-					<label> Catering Menu Details</label> <input type="text"
+					<label> Type of Enteratianment</label> <input type="text"
 						value="<c:out value='${user.TypeofEnteratianment}' />" class="form-control"
 						name="TypeofEnteratianment"  required="required">
 				</fieldset>
