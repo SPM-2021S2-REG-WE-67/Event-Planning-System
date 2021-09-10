@@ -18,7 +18,7 @@ nav.sidebar {
 }
 
 .bkgnd {
-	background-color: #d9edf7;
+	background-color: #d4edfa;
 	color: #428bca;
 }
 
