@@ -1,4 +1,4 @@
-package event.servlet.employee;
+package event.servlet.entertainment;
 
 import java.io.IOException;
 import java.sql.SQLException;
@@ -14,10 +14,10 @@ import javax.servlet.http.HttpServletResponse;
 import event.dao.EntertainmentDao;
 import event.model.entertainment;
 
-@WebServlet("/updateEntertainment")
-public class EntertainmentUpdateServlet extends HttpServlet {
+@WebServlet("/listEntertainment")
+public class EntertainmentListServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-	private EntertainmentDao EntertainmentDao;
+	privateEntertainmentDao EntertainmentDao;
 
 	public void init() {
 		EntertainmentDao = new EntertainmentDao();
@@ -31,24 +31,12 @@ public class EntertainmentUpdateServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		String action = request.getServletPath();
-		int id = Integer.parseInt(request.getParameter("id"));
-		String employeename = request.getParameter("resourcename");
-		String address = request.getParameter("typeOfEntertainment");
-		int mobile = Integer.parseInt(request.getParameter("days"));
-		String position = request.getParameter("location");
-		
+		List<Entertainment> listEntertainment = EntertainmentDao.selectAllEntertainment();
+		// System.out.print(listUser);
+		request.setAttribute("listEntertainment", listEntertainment);
+		RequestDispatcher dispatcher = request.getRequestDispatcher("entertainmentlist.jsp");
+		dispatcher.forward(request, response);
 
-		Entertainment emp = new Entertainment( resourcename,typeOfEntertainment, days, location, );
-		try {
-			EntertainmentDao.updateEntertainment(emp);
-		} catch (SQLException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		response.sendRedirect("listEntertainment");
-		
 	}
-
-	
 
 }

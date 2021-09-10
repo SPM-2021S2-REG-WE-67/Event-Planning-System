@@ -1,4 +1,4 @@
-package event.servlet.employee;
+package event.servlet.entertainment;
 
 import java.io.File;
 import java.io.IOException;
@@ -31,8 +31,8 @@ public class EntertainmentAddServlet extends HttpServlet {
 	public void init() {
 		EntertainmentDao = new EntertainmentDao();
 	}
-	public static final String UPLOAD_DIR = "images"+File.separator+"rooms";
-	public static final String UPLOAD_DIR2="images/rooms";
+	public static final String UPLOAD_DIR = "images"+File.separator+"Entertainment";
+	public static final String UPLOAD_DIR2="images/Entertainment";
 	public String dbFileName = "";
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {

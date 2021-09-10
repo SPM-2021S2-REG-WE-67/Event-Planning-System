@@ -1,4 +1,4 @@
-package event.servlet.user;
+package event.servlet.entertainment;
 
 import java.io.IOException;
 import java.sql.SQLException;
@@ -11,20 +11,18 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import event.dao.TransportDao;
-import event.model.Employee;
-import event.model.Inventory;
-import event.model.Rooms;
-import event.model.Transport;
+import event.dao.EntertainmentDao;
+import event.model.entertainment;
 
-@WebServlet("/newuserregister")
-public class ShowRegisterServlet extends HttpServlet {
+@WebServlet("/deleteEntertainment")
+public class EntertainmentDeleteServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-
+	private EntertainmentDao EntertainmentDao;
 
 	public void init() {
-		
+		EntertainmentDao = new EntertainmentDao();
 	}
+
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
@@ -34,10 +32,17 @@ public class ShowRegisterServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		String action = request.getServletPath();
-
-		RequestDispatcher dispatcher = request.getRequestDispatcher("Register.jsp");
-		dispatcher.forward(request, response);
+		int id = Integer.parseInt(request.getParameter("id"));
+		try {
+			EntertainmentDao.deleteEntertainment(id);
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		response.sendRedirect("listEntertainment");
+		
 	}
 
 	
+
 }

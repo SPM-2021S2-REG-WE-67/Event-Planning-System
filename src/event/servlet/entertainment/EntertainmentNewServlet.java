@@ -1,7 +1,8 @@
-package event.servlet.user;
+package event.servlet.entertainment;
 
 import java.io.IOException;
-
+import java.sql.SQLException;
+import java.util.List;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -10,23 +11,17 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import event.dao.UserDao;
-import event.model.User;
+import event.dao.EntertainmentDao;
+import event.model.entertainment;
 
-
-
-
-
-@WebServlet("/useredit")
-public class UserEditServlet extends HttpServlet {
+@WebServlet("/newEntertainment")
+public class EntertainmentNewServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-	private UserDao UserDao;
-	
+	private EntertainmentDao EntertainmentDao;
+
 	public void init() {
-		UserDao = new UserDao();
+		EntertainmentDao = new EntertainmentDao();
 	}
-
-
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		doGet(request, response);
@@ -34,13 +29,11 @@ public class UserEditServlet extends HttpServlet {
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		int id = Integer.parseInt(request.getParameter("id"));
-		User user = UserDao.selectUser(id);
-		RequestDispatcher dispatcher = request.getRequestDispatcher("NewUser.jsp");
-		request.setAttribute("user", user);
+		String action = request.getServletPath();
+		RequestDispatcher dispatcher = request.getRequestDispatcher("Newentertainment.jsp");
 		dispatcher.forward(request, response);
-
 	
 	}
+	
 
-	}
+}
