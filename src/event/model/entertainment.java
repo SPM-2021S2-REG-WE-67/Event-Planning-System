@@ -72,6 +72,7 @@ public class entertainment {
 
 	public void setresourcename(String resourcename) {
 		this.resourcename = resourcename;
+		
 	}
 
 	public String gettypeOfEntertainment() {
