@@ -93,7 +93,7 @@ table.dataTable tbody tr {
 }
 
 .sidebar-navigation li::before {
-	background-color: #4b0082;
+	background-color: #4c0082fb;
 	position: absolute;
 	content: '';
 	height: 100%;
