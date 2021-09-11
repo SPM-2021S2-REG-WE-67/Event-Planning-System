@@ -86,8 +86,25 @@ INSERT INTO `venue` (`id`, `ResourceName`, `TypeOfVenue`, `Location`, `WorkingDa
 (15, 'Alen Hall Booking', 'Wedding Hall' , 'Kandy', 'Weekday', '205684046.jpg', 'D:\\Users\\PC\\eclipse-workspace\\Test2\\WebContent\\VenueImg\\205684046.jpg'),
 
 -- --------------------------------------------------------
-
+CREATE TABLE `entertainment` (
+  `id` int(11) NOT NULL,
+  `resourcename` varchar(200) DEFAULT NULL,
+  `typeofentertainment` varchar(20) NOT NULL,
+  `workingdays` varchar(200) NOT NULL,
+  `Location` varchar(20) NOT NULL,
+  `filename` varchar(255) NOT NULL,
+  `path` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+ 
 --
+-- Dumping data for table `rooms`
+--
+ 
+INSERT INTO `entertainment` (`id`, `resourcename`, `typeofentertainment`, `workingdays`, `Location`, `filename`, `path`) VALUES
+(13, 'thulasi studio', 'photgraphy', 'weekdays', 'jaffna', 'Deluxe-Room-at-Yara-Galle-Fort.jpg', 'D:\\Users\\PC\\eclipse-workspace\\Test2\\WebContent\\RoomImg\\Deluxe-Room-at-Yara-Galle-Fort.jpg'),
+(14, 'kannan studio studio', 'videgraphy', 'weekdays', 'colombo', 'images.jpg', 'D:\\Users\\PC\\eclipse-workspace\\Test2\\WebContent\\RoomImg\\images.jpg'),
+(15, 'malar  studio', 'photgraphy', 'weekend', 'battcaloa', '205684046.jpg', 'D:\\Users\\PC\\eclipse-workspace\\Test2\\WebContent\\RoomImg\\205684046.jpg'),
+ 
 -- Table structure for table `user`
 --
 
@@ -124,7 +141,23 @@ CREATE TABLE `users` (
 
 -- --------------------------------------------------------
 
-
+ALTER TABLE `entertainment`
+  ADD PRIMARY KEY (`id`);
+ 
+--
+ 
+--
+ 
+--
+-- AUTO_INCREMENT for dumped tables
+--
+--
+-- AUTO_INCREMENT for table `rooms`
+--
+ALTER TABLE `entertainment`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=47;
+ 
+--
 --
 -- Indexes for dumped tables
 --
