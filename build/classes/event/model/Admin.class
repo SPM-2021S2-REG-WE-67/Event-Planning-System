@@ -1,0 +1,12 @@
+Êþº¾   4   event/model/Admin  java/lang/Object username Ljava/lang/String; password <init> ()V Code
+    	 LineNumberTable LocalVariableTable this Levent/model/Admin; getUsername ()Ljava/lang/String;	     setUsername (Ljava/lang/String;)V getPassword	     setPassword 
+SourceFile 
+Admin.java !                   	  
+   3     *· ±       
+      	                 
+   /     *´ °                            
+   >     *+µ ±       
+                             
+   /     *´ °                            
+   >     *+µ ±       
+                              
