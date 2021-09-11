@@ -41,6 +41,7 @@ INSERT INTO `admin` (`id`, `username`, `password`) VALUES
 (1, 'Admin', '123');
 
 -- --------------------------------------------------------
+
 -- Table structure for table `catering`
 --
 
@@ -56,6 +57,7 @@ CREATE TABLE `catering` (
 
 -- Dumping data for table `catering`
 --
+
 
 INSERT INTO `catering` (`id`, `cateringname`, `CateringMenuDetails`, `WorkingDays`, `Location`, `filename`, `path`) VALUES
 (13, 'Normal', 'sss', 'Tv', 'jdjd', 'Deluxe-Room-at-Yara-Galle-Fort.jpg', 'D:\\Users\\PC\\eclipse-workspace\\Test2\\WebContent\\RoomImg\\Deluxe-Room-at-Yara-Galle-Fort.jpg'),
@@ -133,12 +135,12 @@ CREATE TABLE `users` (
 ALTER TABLE `admin`
   ADD PRIMARY KEY (`id`);
 
-
 -- Indexes for table `catering`
 --
 ALTER TABLE `catering`
   ADD PRIMARY KEY (`id`);
 
+ 
 --
 -- Indexes for table `venue`
 --
@@ -166,7 +168,8 @@ ALTER TABLE `admin`
 --
 ALTER TABLE `catering`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=47;
-  
+
+ 
 --
 -- AUTO_INCREMENT for table `venue`
 --
