@@ -41,6 +41,27 @@ INSERT INTO `admin` (`id`, `username`, `password`) VALUES
 (1, 'Admin', '123');
 
 -- --------------------------------------------------------
+-- --------------------------------------------------------
+
+-- Table structure for table `catering`
+--
+
+CREATE TABLE `catering` (
+  `id` int(11) NOT NULL,
+  `cateringname` varchar(200) DEFAULT NULL,
+  `CateringMenuDetails` varchar(20) NOT NULL,
+  `WorkingDays` varchar(200) NOT NULL,
+  `Location` varchar(20) NOT NULL,
+  `filename` varchar(255) NOT NULL,
+  `path` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- Dumping data for table `catering`
+--
+
+INSERT INTO `catering` (`id`, `cateringname`, `CateringMenuDetails`, `WorkingDays`, `Location`, `filename`, `path`) VALUES
+(13, 'Normal', 'sss', 'Tv', 'jdjd', 'Deluxe-Room-at-Yara-Galle-Fort.jpg', 'D:\\Users\\PC\\eclipse-workspace\\Test2\\WebContent\\RoomImg\\Deluxe-Room-at-Yara-Galle-Fort.jpg'),
+(14, 'Luxary', 'dff', 'Tv , Ac , Wifi ', 'ddd', 'images.jpg', 'D:\\Users\\PC\\eclipse-workspace\\Test2\\WebContent\\RoomImg\\images.jpg');
 
 --
 -- Table structure for table `venue`
@@ -114,7 +135,12 @@ CREATE TABLE `users` (
 --
 ALTER TABLE `admin`
   ADD PRIMARY KEY (`id`);
-
+ 
+-- Indexes for table `catering`
+--
+ALTER TABLE `catering`
+  ADD PRIMARY KEY (`id`);
+ 
 --
 -- Indexes for table `venue`
 --
@@ -137,7 +163,12 @@ ALTER TABLE `user`
 ALTER TABLE `admin`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
-
+--
+-- AUTO_INCREMENT for table `catering`
+--
+ALTER TABLE `catering`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=47;
+ 
 --
 -- AUTO_INCREMENT for table `venue`
 --
