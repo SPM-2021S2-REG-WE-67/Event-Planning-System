@@ -32,8 +32,8 @@ body {
 .flip-card-container {
   --hue: 150;
   --primary: hsl(var(--hue), 50%, 50%);
-  --white-1: hsl(0, 0%, 90%);
-  --white-2: hsl(0, 0%, 80%);
+  --white-1: hsl(0, 0%, 95%);
+  --white-2: hsl(0, 1%, 74%);
   --dark: hsl(var(--hue), 25%, 10%);
   --grey: hsl(0, 0%, 50%);
 
