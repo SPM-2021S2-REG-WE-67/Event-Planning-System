@@ -11,8 +11,8 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	line-height: 1.42em;
-	color: #A7A1AE;
-	background-color: #1F2739;
+	color: #a9a3af;
+	background-color: #293349;
 }
 
 h1 {
