@@ -1,4 +1,4 @@
-package event.dao;
+package catering.dao;
 
 
 import java.sql.Connection;

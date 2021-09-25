@@ -1,4 +1,4 @@
-package event.model;
+package catering.model;
 
 public class Catering {
 	public int id;
