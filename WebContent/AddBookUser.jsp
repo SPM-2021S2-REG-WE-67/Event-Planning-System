@@ -14,14 +14,14 @@
 <body class="form-v10">
 	<div class="page-content">
 		<div class="form-v10-content">
-			<form class="form-detail" action="insertuserVenueBook" method="post" >
+			<form class="form-detail" action="insertuserCateringBook" method="post" >
 				<div class="form-left">
-					<h2>Book Your Venue Resource Services<h3 value="${user} " ReadOnly> </h3></h2>
+					<h2>Book Your Catering Services<h3 value="${user} " ReadOnly> </h3></h2>
 				
 					<div class="form-group">
 										
 						<div class="form-row form-row-1">
-							<input type="text" value="${user}"  name="user" placeholder="User Name" >
+							<input type="text" value="${user}"  name="user" placeholder="Guest Name" >
 						</div>
 						<div class="form-row form-row-2">
 							<input type="text" name="nic"   placeholder="NIC" required>
@@ -32,15 +32,17 @@
 					<label>Booking Date</label>
 						<input type="date" name="bookingdate"   required>
 					</div>
+
 					<div class="form-row">
-						<input type="number" name="numberofguests"  placeholder="Number of Guests" required>
+					<label>Number of Plates</label>
+						<input type="number" name="noofplates"   required>
 					</div>
 					<div class="form-row">
-						<input type="text" name="additionalservices"  placeholder="Additional Services" required>
+						<input type="text" name="additionalneeds"  placeholder="Additional Needs" required>
 					</div>
 
 					<div class="form-row">
-						<input type="number" name="advancedpayment"  placeholder="Advanced Payment" >
+						<input type="number" name="AdvancedPayment"  placeholder=" AdvancedPayment" >
 					</div>
 					
 				</div>
@@ -56,7 +58,7 @@
 						<input type="text" name="email" id="your_email" class="input-text" required pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}" placeholder="Your Email">
 					</div>
 					<div class="form-checkbox">
-						<label class="container"><p>I do accept the <a href="#" class="text">Terms and Conditions</a> of your site.</p>
+						<label class="container"><p>I do accept the <a href="#" class="text">Terms and Conditions</a> of your service site.</p>
 						  	<input type="checkbox" name="checkbox">
 						  	<span class="checkmark"></span>
 						</label>
