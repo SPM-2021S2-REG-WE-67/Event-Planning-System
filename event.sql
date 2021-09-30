@@ -84,6 +84,26 @@ INSERT INTO `venue` (`id`, `ResourceName`, `TypeOfVenue`, `Location`, `WorkingDa
 (15, 'Alen Hall Booking', 'Wedding Hall' , 'Kandy', 'Weekday', '205684046.jpg', 'D:\\Users\\PC\\eclipse-workspace\\Test2\\WebContent\\VenueImg\\205684046.jpg'),
 
 -- --------------------------------------------------------
+CREATE TABLE `venuebooking` (
+  `id` int(11) NOT NULL,
+  `User` varchar(100) NOT NULL,
+  `Mobile` int(11) NOT NULL,
+  `Nic` varchar(15) NOT NULL,
+  `Email` varchar(100) NOT NULL,
+  `NumberOfGuests` int(11) NOT NULL,
+  `AdditionalServices` varchar(60) NOT NULL,
+  `BookingDate` varchar(60) NOT NULL,
+  `AdvancedPayment` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `venuebooking`
+--
+
+INSERT INTO `venuebooking` (`id`, `User`, `Mobile`, `Nic`, `Email`, `NumberOfGuests`, `AdditionalServices`, `BookingDate`, `AdvancedPayment`) VALUES
+(1, 'Souji', 0774567897, '977576694V', 'nkiru@gmail.com', 4, 'decoration', '2021.09.03', 10000),
+(4, 'Kisho', 0778965432, '977654321V', 'wurifimun@mailinator.com', 7, 'chairs', '2021.09.08', 50000),
+
 
 --
 -- Table structure for table `user`
@@ -146,6 +166,12 @@ ALTER TABLE `venue`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `venuebooking`
+--
+ALTER TABLE `venuebooking`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `user`
 --
 ALTER TABLE `user`
@@ -173,6 +199,11 @@ ALTER TABLE `catering`
 ALTER TABLE `venue`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=47;
 
+--
+-- AUTO_INCREMENT for table `venuebooking`
+--
+ALTER TABLE `venuebooking`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT for table `user`

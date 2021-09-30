@@ -30,12 +30,12 @@ public class VenueBookingDao {
 		try (Connection connection = dbconnection.getConnection();
 				PreparedStatement preparedStatement = connection.prepareStatement(INSERT_venuebooking_SQL)) {
 			preparedStatement.setString(1, venuebook.getUser());
-			preparedStatement.setString(2, venuebook.getMobile());
-			preparedStatement.setInt(3, venuebook.getNic());
+			preparedStatement.setInt(2, venuebook.getMobile());
+			preparedStatement.setString(3, venuebook.getNic());
 			preparedStatement.setString(4, venuebook.getEmail());
-			preparedStatement.setString(5, venuebook.getNumberOfGuests());
+			preparedStatement.setInt(5, venuebook.getNumberOfGuests());
 			preparedStatement.setString(6, venuebook.getAdditionalServices());
-			preparedStatement.setInt(7, venuebook.getBookingDate());
+			preparedStatement.setString(7, venuebook.getBookingDate());
 			preparedStatement.setInt(8, venuebook.getAdvancedPayment());
 
 			System.out.println(preparedStatement);
