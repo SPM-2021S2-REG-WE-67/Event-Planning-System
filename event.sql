@@ -60,6 +60,9 @@ CREATE TABLE `catering` (
 INSERT INTO `catering` (`id`, `cateringname`, `CateringMenuDetails`, `WorkingDays`, `Location`, `filename`, `path`) VALUES
 (13, 'Normal', 'sss', 'Tv', 'jdjd', 'Deluxe-Catering-at-Yara-Galle-Fort.jpg', 'D:\\Users\\PC\\eclipse-workspace\\Test2\\WebContent\\CateringImg\\Deluxe-Room-at-Yara-Galle-Fort.jpg'),
 (14, 'Luxary', 'dff', 'Tv , Ac , Wifi ', 'ddd', 'images.jpg', 'D:\\Users\\PC\\eclipse-workspace\\Test2\\WebContent\\CateringImg\\images.jpg');
+=======
+
+>>>>>>> 4648220ed7988fb65d95ce3a1fd8256fadf8456b
 --
 -- Table structure for table `venue`
 --
@@ -151,6 +154,8 @@ INSERT INTO `cateringsbooking` (`id`, `user`, `nic`, `mobile`, `email`, `booking
 
 -- --------------------------------------------------------
 --
+=======
+>>>>>>> 4648220ed7988fb65d95ce3a1fd8256fadf8456b
 -- Indexes for dumped tables
 --
 
@@ -166,6 +171,8 @@ ALTER TABLE `admin`
 ALTER TABLE `catering`
   ADD PRIMARY KEY (`id`);
 
+=======
+>>>>>>> 4648220ed7988fb65d95ce3a1fd8256fadf8456b
 --
 -- Indexes for table `venue`
 --
@@ -186,6 +193,8 @@ ALTER TABLE `cateringsbooking`
 
 
 --
+=======
+>>>>>>> 4648220ed7988fb65d95ce3a1fd8256fadf8456b
 -- AUTO_INCREMENT for dumped tables
 --
 
@@ -208,6 +217,10 @@ ALTER TABLE `cateringsbooking`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
   
 --
+=======
+
+--
+>>>>>>> 4648220ed7988fb65d95ce3a1fd8256fadf8456b
 -- AUTO_INCREMENT for table `venue`
 --
 ALTER TABLE `venue`

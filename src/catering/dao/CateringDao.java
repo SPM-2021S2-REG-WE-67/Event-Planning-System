@@ -1,6 +1,5 @@
 package catering.dao;
 
-
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -8,7 +7,6 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import event.dbconnection.DbConnection;
 import catering.model.Catering;
 
 public class CateringDao {
@@ -18,7 +16,7 @@ public class CateringDao {
 			+ " ( cateringname,CaterinMenuDetails,WorkingDays,Location,filename,path) VALUES " + " (?, ?, ?,?,?,?);";
 
 	private static final String SELECT_catering_BY_ID = "select id,cateringname,CaterinMenuDetails,WorkingDays,Location from catering where id =?";
-	private static final String SELECT_ALL_catering= "select * from catering";
+	private static final String SELECT_ALL_catering = "select * from catering";
 	private static final String DELETE_catering_SQL = "delete from catering where id = ?;";
 	private static final String UPDATE_catering_SQL = "update catering set   cateringname = ?,CaterinMenuDetails = ?,WorkingDays = ?,Location = ?  where id = ?;";
 
@@ -27,7 +25,7 @@ public class CateringDao {
 
 	DbConnection dbconnection = new DbConnection();
 
-// insert Catering
+	// insert Catering
 	public void insertCatering(Catering catering) throws SQLException {
 		System.out.println(INSERT_catering_SQL);
 		// try-with-resource statement will auto close the connection.
@@ -99,7 +97,8 @@ public class CateringDao {
 				String location = rs.getString("Location");
 				String filename = rs.getString("filename");
 				String path = rs.getString("path");
-				catering.add(new Catering(id, cateringname, cateringmenudetails, workingdays, location, filename, path));
+				catering.add(
+						new Catering(id, cateringname, cateringmenudetails, workingdays, location, filename, path));
 			}
 		} catch (SQLException e) {
 			dbconnection.printSQLException(e);
