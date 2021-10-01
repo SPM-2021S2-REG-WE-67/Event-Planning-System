@@ -10,6 +10,7 @@ import java.util.List;
 
 import event.dbconnection.DbConnection;
 import event.model.entertainment;
+import event.servlet.entertainment.EntertainmentAddServlet;
 
 public class EntertainmentDao {
 	
@@ -28,7 +29,7 @@ public class EntertainmentDao {
 	DbConnection dbconnection = new DbConnection();
     
 	// insert Transport
-	public void insertEntertainment(Entertainment tr) throws SQLException, FileNotFoundException {
+	public void insertEntertainment(EntertainmentAddServlet tr) throws SQLException, FileNotFoundException {
 		System.out.println(INSERT_EntertainmentSQL);
 		// try-with-resource statement will auto close the connection.
 		try (Connection connection = dbconnection.getConnection();

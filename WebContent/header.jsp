@@ -35,7 +35,7 @@ thead {
 }
 
 table.dataTable tbody tr {
-	background: #f7b4ec;
+	background: #b4c8f7;
 	font-weight: 600;
 	color: black;
 }
@@ -48,7 +48,7 @@ table.dataTable tbody tr {
 	overflow-x: hidden;
 	overflow-y: auto;
 	background: #000000;
-	color: rgb(233, 227, 227);
+	color: #fff;
 }
 
 .content-container {
@@ -79,7 +79,7 @@ table.dataTable tbody tr {
 .sidebar-navigation li a {
 	padding: 10px 15px 10px 30px;
 	display: block;
-	color: rgb(247, 244, 244);
+	color: #fff;
 }
 
 .sidebar-navigation li .fa {
@@ -93,7 +93,7 @@ table.dataTable tbody tr {
 }
 
 .sidebar-navigation li::before {
-	background-color: #4c0082fb;
+	background-color: #4b0082;
 	position: absolute;
 	content: '';
 	height: 100%;
@@ -112,7 +112,7 @@ table.dataTable tbody tr {
 .sidebar-navigation .header {
 	font-size: 12px;
 	text-transform: uppercase;
-	background-color: #080808;
+	background-color: #00000;
 	padding: 10px 15px 10px 30px;
 }
 
@@ -127,7 +127,7 @@ table.dataTable tbody tr {
 .sidebar-navigation li a {
 	padding: 10px 15px 10px 30px;
 	display: block;
-	color: rgb(255, 255, 255);
+	color: #fff;
 	line-height: 40px;
 	font-size: 18px;
 	font-weight: 600;
@@ -144,17 +144,17 @@ table.dataTable tbody tr {
 			<ul class="sidebar-navigation">
 				<li class="header">VSK Event Planners</li>
 				
-				<li><a href="listphotography"> <i class="fa fa-tachometer"
-						aria-hidden="true"></i>Events Photography
+				<li><a href="listcatering"> <i class="fa fa-tachometer"
+						aria-hidden="true"></i>Catering
 				</a></li>				
-				<li><a href="listentertainment"> <i class="fa fa-info-circle"
+				<li><a href="listtransport"> <i class="fa fa-info-circle"
 						aria-hidden="true"></i>Entertainment
 				</a></li>
-				<li><a href="listvenue"> <i class="fa fa-info-circle"
+				<li><a href="listbanq"> <i class="fa fa-info-circle"
 						aria-hidden="true"></i>Venue
 				</a></li>
-				<li><a href="listcatering"> <i class="fa fa-info-circle"
-						aria-hidden="true"></i>Catering
+				<li><a href="listres"> <i class="fa fa-info-circle"
+						aria-hidden="true"></i>Events Photography
 				</a></li>
 
 				<li><a href="index.html"> <i class="fa fa-info-circle"

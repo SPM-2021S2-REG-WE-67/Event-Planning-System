@@ -9,8 +9,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import event.model.Admin;
 import event.dao.CommonDao;
+import event.model.Admin;
 
 @WebServlet("/loginadmin")
 public class AdminLoginServlet extends HttpServlet {
@@ -33,7 +33,7 @@ public class AdminLoginServlet extends HttpServlet {
 		try {
 			if (CommonDao.validate(admin)) {
 
-				response.sendRedirect("FoodList.jsp");
+				response.sendRedirect("cateringlist.jsp");
 			} else {
 				HttpSession session = request.getSession();
 				response.sendRedirect("AdminLogin.jsp");

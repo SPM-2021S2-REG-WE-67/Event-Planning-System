@@ -19,6 +19,7 @@ public class entertainment {
 		this.typeOfEntertainment = typeOfEntertainment;
 		this.days = days;
 		this.location = location;
+		//
 	}
 
 	public entertainment(String resourcename, String typeOfEntertainment, String days, String location, String filename, String path) {

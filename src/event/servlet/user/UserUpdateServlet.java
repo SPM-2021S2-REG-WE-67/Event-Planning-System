@@ -7,12 +7,13 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+
 import event.dao.UserDao;
 import event.model.User;
 
 
 
-@WebServlet("/userpdate")
+@WebServlet("/usrupdate")
 public class UserUpdateServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	private UserDao UserDao;

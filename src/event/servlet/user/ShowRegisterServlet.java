@@ -11,7 +11,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import event.model.Venue;
+import event.model.Caterings;
+
 
 @WebServlet("/newuserregister")
 public class ShowRegisterServlet extends HttpServlet {

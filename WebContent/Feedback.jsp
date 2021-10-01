@@ -27,21 +27,21 @@
 	  
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="home/index.html"><span>VSK</span> EVENT PLANNERS</a>
+	      <a class="navbar-brand" href="home/index.html"><span>VSK</span>EVENT PLANNERS</a>
 	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav nav ml-auto">
-	          <li class="nav-item"><a href="index.html" class="nav-link"><span>Home</span></a></li>
-	          <li class="nav-item"><a href="AboutUs.jsp" class="nav-link"><span>About Us</span></a></li>
-	          <li class="nav-item"><a href="Register.jsp" class="nav-link"><span>SignUp</span></a></li>
-	          <li class="nav-item"><a href="#services-section" class="nav-link"><span>Services</span></a></li>
-	          <li class="nav-item"><a href="CustomerLogin.jsp" class="nav-link"><span>SignIn</span></a></li>
-	          <li class="nav-item"><a href="AdminLogin.jsp" class="nav-link"><span>Admin</span></a></li>
-	          <li class="nav-item"><a href="ContactUs.jsp" class="nav-link"><span>Contact Us</span></a></li>
-	         
+	          <li class="nav-item"><a href="MemberView.jsp" class="nav-link"><span>Home</span></a></li>
+	          <li class="nav-item"><a href="MemberViewAboutUs.jsp" class="nav-link"><span>About Us</span></a></li>
+	      
+	          <li class="nav-item"><a href="Services.jsp" class="nav-link"><span>Services</span></a></li>
+	          <li class="nav-item"><a href="Logout" class="nav-link"><span>Log Out</span></a></li>
+	       
+	          <li class="nav-item"><a href="MemberViewContactUs.jsp" class="nav-link"><span>Contact Us</span></a></li>
+	          <li class="nav-item"><a href="Feedback.jsp" class="nav-link"><span>Feedback</span></a></li>
 	        </ul>
 	      </div>
 	    </div>
@@ -51,74 +51,24 @@
       <div class="container">
       	<div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 heading-section text-center ftco-animate">
-            <h1 class="big big-2">Contact</h1>
-            <h2 class="mb-4">Contact Us</h2>
-    
+            <h1 class="big big-2">Feedback</h1>
+            <h2 class="mb-4">Give Feedback</h2>
+      
           </div>
         </div>
-    </div>
-
-        <div class="row d-flex contact-info mb-5">
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-          	<div class="align-self-stretch box text-center p-4 shadow">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-map-signs"></span>
-          		</div>
-          		<div>
-	          		<h3 class="mb-4">Location</h3>
-		            <p>Colombo</p>
-		          </div>
-	          </div>
-          </div>
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-          	<div class="align-self-stretch box text-center p-4 shadow">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-phone2"></span>
-          		</div>
-          		<div>
-	          		<h3 class="mb-4">Contact Number</h3>
-		            <p><a >0112222525</a></p>
-	            </div>
-	          </div>
-          </div>
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-          	<div class="align-self-stretch box text-center p-4 shadow">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-paper-plane"></span>
-          		</div>
-          		<div>
-	          		<h3 class="mb-4">Email Address</h3>
-		            <p><a href="">vskplanners@gmail.com</a></p>
-		          </div>
-	          </div>
-          </div>
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-          	<div class="align-self-stretch box text-center p-4 shadow">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-globe"></span>
-          		</div>
-          		<div>
-	          		<h3 class="mb-4">Website</h3>
-		            <p><a href="#">vskplanners.com</a></p>
-	            </div>
-	          </div>
-          </div>
-        </div>
+</div>
+      
         
-        
-        <div class="row no-gutters block-9  ">
+        <div class="row no-gutters block-9">
          <div class="col-10 offset-1 col-lg-8 offset-lg-2 div-wrapper d-flex justify-content-center align-items-center">
-          <div class="col-md-6 order-md-last d-flex ">
-            <form action="#" class="bg-light p-4 p-md-5 contact-form ">
-            <h3 class="mb-4 text-center">Get In Touch</h3>
+          <div class="col-md-6 order-md-last d-flex">
+            <form action="#" class="bg-light p-4 p-md-5 contact-form">
+            <h3 class="mb-4 text-center">Give Feedback</h3>
               <div class="form-group">
                 <input type="text" class="form-control" placeholder="Your Name">
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Your Email">
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Subject">
+                <input type="text" class="form-control" placeholder="Your Feedback">
               </div>
               <div class="form-group">
                 <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
@@ -128,7 +78,6 @@
                 <input type="submit" value="Send Message" class="btn btn-dark py-3 px-5">
               </div>
               </div>
-             
             </form>
           </div>
           </div>
