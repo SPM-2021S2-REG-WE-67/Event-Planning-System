@@ -3,6 +3,9 @@ org.eclipse.jdt.core.compiler.codegen.inlineJsrBytecode=enabled
 org.eclipse.jdt.core.compiler.codegen.targetPlatform=1.8
 org.eclipse.jdt.core.compiler.compliance=1.8
 org.eclipse.jdt.core.compiler.problem.assertIdentifier=error
+<<<<<<< HEAD
 org.eclipse.jdt.core.compiler.problem.enablePreviewFeatures=disabled
+=======
+>>>>>>> 4648220ed7988fb65d95ce3a1fd8256fadf8456b
 org.eclipse.jdt.core.compiler.problem.enumIdentifier=error
 org.eclipse.jdt.core.compiler.source=1.8

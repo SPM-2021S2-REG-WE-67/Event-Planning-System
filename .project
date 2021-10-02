@@ -28,6 +28,7 @@
 		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
 	</natures>
+<<<<<<< HEAD
 	<filteredResources>
 		<filter>
 			<id>1632543897186</id>
@@ -40,3 +41,6 @@
 		</filter>
 	</filteredResources>
 </projectDescription>
+=======
+</projectDescription> 
+>>>>>>> 4648220ed7988fb65d95ce3a1fd8256fadf8456b
