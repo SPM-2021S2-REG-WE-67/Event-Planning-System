@@ -11,19 +11,19 @@
 		<div class="card">
 			<div class="card-body">
 				<c:if test="${user != null}">
-					<form action="updateEntertainment" method="post">
+					<form action="updatecatering" method="post">
 				</c:if>
 				<c:if test="${user == null}">
-					<form action="insertEntertainment" method="post" enctype="multipart/form-data">
+					<form action="insertcatering" method="post" enctype="multipart/form-data">
 				</c:if>
 
 				<caption>
 					<h2>
 						<c:if test="${user != null}">
-            			Edit Entertainment Resource Details
+            			Edit Catering Service Details
             		</c:if>
 						<c:if test="${user == null}">
-            			Add New Entertainment Resource Details
+            			Add New Catering Services Details
             		</c:if>
 					</h2>
 				</caption>
@@ -33,33 +33,38 @@
 				</c:if>
 
 				<fieldset class="form-group">
-					<label> Resource Name</label> <input type="text"
-						value="<c:out value='${user.reosurcename}' />" class="form-control"
-						name="resourcename" required="required">
+					<label>Catering Name</label> <input type="text"
+						value="<c:out value='${user.cateringtype}' />" class="form-control"
+						name="cateringname" required="required">
 				</fieldset>
 
 				
 
 				<fieldset class="form-group">
-					<label> Type of Enteratianment</label> <input type="text"
-						value="<c:out value='${user.TypeofEnteratianment}' />" class="form-control"
-						name="TypeofEnteratianment"  required="required">
+					<label>Catering Menu Details</label> <input type="text"
+						value="<c:out value='${user.facilities}' />" class="form-control"
+						name="cateringmenudetails" required="required">
 				</fieldset>
 				
+				
+				
 				<fieldset class="form-group">
-					<label> Working Days</label> <input type="text"
-						value="<c:out value='${user.Days}' />" class="form-control"
-						name="days"  required="required">
+					<label> Working Days</label> <br><select id = "div" name = "workingdays">
+<option value="Week Day">Week Day</option>
+<option value="Week End">Week End</option>
+<option value="All Days">All Days</option>
+</select>						
 				</fieldset>
+				
 				<fieldset class="form-group">
 					<label> Location</label> <input type="text"
-						value="<c:out value='${user.location}' />" class="form-control"
+						value="<c:out value='${user.cost}' />" class="form-control"
 						name="location" required="required">
 				</fieldset>
 
 				<fieldset class="form-group">
-					<label> Cost Details</label> <input type="file" class="form-control"
-						name="file" >
+					<label>Cost Details</label> <input type="file" class="form-control"
+						name="file" required="required">
 				</fieldset>
 				<div class="d-flex justify-content-center">
 				<button type="submit" class="btn btn-dark">Save</button>
