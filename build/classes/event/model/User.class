@@ -1,18 +1,0 @@
-Êþº¾   4 ;  event/model/User  java/lang/Object id I fullname Ljava/lang/String; username mobile address mail password <init> _(ILjava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V Code
-     ()V	    	    	   	 	   
- 	    	    	  !   LineNumberTable LocalVariableTable this Levent/model/User; ^(Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V getId ()I setId (I)V getFullname ()Ljava/lang/String; setFullname (Ljava/lang/String;)V getUsername setUsername 	getMobile 	setMobile 
-getAddress 
-setAddress getMail setMail getPassword setPassword 
-SourceFile 	User.java !                 	     
-                           ¼     ,*· *µ *,µ *-µ *µ *µ *µ *µ  ±    "   & 	      	          %  +  #   R    , $ %     ,      ,      , 	     , 
-     ,      ,      ,           3     *· ±    "   
-       #        $ %     &     ¨     &*· *+µ *,µ *µ *µ *µ *µ  ±    "   "       	        !  " % # #   H    & $ %     &      & 	     & 
-     &      &      &     ' (     /     *´ ¬    "       & #        $ %    ) *     >     *µ ±    "   
-    *  + #        $ %          + ,     /     *´ °    "       . #        $ %    - .     >     *+µ ±    "   
-    2  3 #        $ %          / ,     /     *´ °    "       6 #        $ %    0 .     >     *+µ ±    "   
-    :  ; #        $ %      	    1 (     /     *´ ¬    "       > #        $ %    2 *     >     *µ ±    "   
-    B  C #        $ %      
-    3 ,     /     *´ °    "       F #        $ %    4 .     >     *+µ ±    "   
-    J  K #        $ %          5 ,     /     *´ °    "       N #        $ %    6 .     >     *+µ ±    "   
-    R  S #        $ %          7 ,     /     *´  °    "       V #        $ %    8 .     >     *+µ  ±    "   
-    Z  [ #        $ %          9    :
