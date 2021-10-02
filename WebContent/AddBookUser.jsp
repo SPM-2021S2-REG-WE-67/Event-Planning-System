@@ -14,9 +14,15 @@
 <body class="form-v10">
 	<div class="page-content">
 		<div class="form-v10-content">
+<<<<<<< IT19107110_S2
+			<form class="form-detail" action="insertuserPhotographyBook" method="post" >
+				<div class="form-left">
+					<h2>Book Your Photography Services<h3 value="${user} " ReadOnly> </h3></h2>
+=======
 			<form class="form-detail" action="insertuserCateringBook" method="post" >
 				<div class="form-left">
 					<h2>Book Your Catering Services<h3 value="${user} " ReadOnly> </h3></h2>
+>>>>>>> Sprint2
 				
 					<div class="form-group">
 										
@@ -34,11 +40,19 @@
 					</div>
 
 					<div class="form-row">
+<<<<<<< IT19107110_S2
+					<label>Studio</label>
+						<input type="text" name="studioname"   required>
+					</div>
+					<div class="form-row">
+						<input type="text" name="packagename"  placeholder="Package" required>
+=======
 					<label>Number of Plates</label>
 						<input type="number" name="noofplates"   required>
 					</div>
 					<div class="form-row">
 						<input type="text" name="additionalneeds"  placeholder="Additional Needs" required>
+>>>>>>> Sprint2
 					</div>
 
 					<div class="form-row">
