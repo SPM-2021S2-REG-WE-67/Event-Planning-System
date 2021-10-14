@@ -3,9 +3,9 @@ Project Name - EVENT PLANNING SYSTEM
 
 Group Details -
 
-Name	Student ID	Username
-Sivarajah.K	IT19119786	kishosiva
-Soujanyaah.K	IT19123400	soujanyaah
+Name	                       Student ID	Username
+Sivarajah.K                 	IT19119786	kishosiva
+Soujanyaah.K	                IT19123400	soujanyaah
 Viknatharshan.N	IT19107110	IT19107110
 Sivashankar.S	IT19047102	sivashankar97   
 
